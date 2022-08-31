@@ -36,6 +36,7 @@ app.get('/', (req, res) => res.send('Hello my World'));
 
 // 
 require("./routes/mentorship")(app);
+require("./routes/sign_up")(app);   
 
 
 //create a server
